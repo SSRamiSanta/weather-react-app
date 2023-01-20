@@ -1,0 +1,25 @@
+.city-question{
+    width: 550px;
+    height: 120px;
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    padding: 0 1em 0 0;
+    margin: 0;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+}
+
+.app-answer {
+    width: 550px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #84a9f3;
+    font-family: 'Nunito';font-size: 22px;
+    font-weight: bold;
+  }

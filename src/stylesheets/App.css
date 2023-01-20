@@ -1,0 +1,14 @@
+.app-content {
+  width: 550px;
+  height: 300px;
+  margin: 10px  10px  50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #84a9f3;
+  box-shadow: 4px 5px 5px rgb(122, 122, 122);
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  padding: 10px; 
+}
