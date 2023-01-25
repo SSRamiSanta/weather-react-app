@@ -22,13 +22,13 @@ export function Data({city}){
         //La respuesta se compone de la temperatura, el estado del clima y un ícono
         <div className='answer-weather'>
             <ul>
-                {!weather ? 'cargando...': 'Temperature: '+weather.current?.temp_c+'°'?? ''}
+                {!weather ? 'loading...': 'Temperature: '+weather.current?.temp_c+'°'?? ''}
             </ul>
             <ul>
-                {!weather ? 'cargando...': weather.current?.condition?.text ?? ''}
+                {!weather ? 'loading...': weather.current?.last_updated ?? ''}
             </ul>
             <ul>
-                <img src={!weather ? 'cargando...': weather.current?.condition?.icon ?? ''}/>
+                <img src={!weather ? 'loading...': weather.current?.condition?.icon ?? ''}/>
             </ul>
         </div>
     );
